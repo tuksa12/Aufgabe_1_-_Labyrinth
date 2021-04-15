@@ -86,6 +86,7 @@ public class Walker {
             result.addLocation(xPosition,yPosition);
             return true;
         }
+        result.addLocation(xPosition,yPosition);
         return false;
     }
 
